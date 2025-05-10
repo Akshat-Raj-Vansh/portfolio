@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import logo from "../assets/logowhite.svg";
+import logo from "../assets/logo.svg";
 
 const NavBar = () => {
   return (
