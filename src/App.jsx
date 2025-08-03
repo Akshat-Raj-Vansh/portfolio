@@ -26,7 +26,7 @@ function App() {
           <motion.div
             key="app-content"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            animate={{ opacity: 1 }}  
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
             className="h-full w-full overflow-x-hidden text-neutral-200 antialiased selection:bg-cyan-300 selection:text-cyan-900"

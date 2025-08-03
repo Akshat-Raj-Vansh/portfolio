@@ -1,9 +1,8 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { FaPython } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
+import { SiTensorflow, SiGooglebigquery } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
@@ -43,7 +42,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <FaPython className="text-7xl text-green-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.5)}
@@ -51,7 +50,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl text-white" />
+          <FaAws className="text-7xl text-orange-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(2.2)}
@@ -59,7 +58,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className="text-7xl text-green-500" />
+          <FaDocker className="text-7xl text-blue-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.8)}
@@ -67,7 +66,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiRedis className="text-7xl text-red-700" />
+          <SiTensorflow className="text-7xl text-orange-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.2)}
@@ -75,7 +74,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <FaGithub className="text-7xl text-white" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.1)}
@@ -83,7 +82,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <SiGooglebigquery className="text-7xl text-sky-700" />
         </motion.div>
       </motion.div>
     </div>
