@@ -30,11 +30,7 @@ const Home = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-<<<<<<< HEAD
               Data Scientist
-=======
-              Full Stack Developer
->>>>>>> b6832e975cce9ac05c3e7ff64af3411b0c71c348
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -54,13 +50,8 @@ const Home = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1.2 }}
                 src={profilePic}
-<<<<<<< HEAD
                 width={350}
                 height={350}
-=======
-                width={450}
-                height={450}
->>>>>>> b6832e975cce9ac05c3e7ff64af3411b0c71c348
                 alt="Akshat Raj Vansh"
               />
             </div>
