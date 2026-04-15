@@ -91,7 +91,7 @@ const Hero = () => {
           }}
           whileHover={{ scale: 1.05, boxShadow: "0 0 80px rgba(255,255,255,0.08)" }}
         >
-          <img src="/avatar.png" alt="Akshat Portrait" className={styles.avatarImage} />
+          <img src={`${import.meta.env.BASE_URL}avatar.png`} alt="Akshat Portrait" className={styles.avatarImage} />
         </motion.div>
       </div>
     </section>
