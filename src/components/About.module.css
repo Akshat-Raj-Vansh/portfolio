@@ -1,0 +1,79 @@
+.aboutSection {
+  composes: section from global;
+  position: relative;
+  z-index: 2;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.bentoGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.card {
+  composes: glass-card from global;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardWide {
+  grid-column: span 3;
+}
+
+.cardTall {
+  grid-column: span 1;
+  grid-row: span 2;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 4rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.description {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.highlightText {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .bentoGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cardWide, .cardTall {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .bentoGrid {
+    grid-template-columns: 1fr;
+  }
+  .cardWide, .cardTall {
+    grid-column: span 1;
+  }
+}

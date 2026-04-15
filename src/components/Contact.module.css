@@ -1,0 +1,64 @@
+.contactSection {
+  composes: section from global;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+.title {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  margin-bottom: 2rem;
+  line-height: 1;
+  color: #fff;
+  transition: opacity 0.5s ease;
+}
+
+.contactSection:hover .title {
+  opacity: 0.3;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: -3rem; /* overlap over the giant text */
+  position: relative;
+  z-index: 10;
+}
+
+.contactLink {
+  composes: glass-card from global;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: white;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contactLink:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footerText {
+  margin-top: 5rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.signatureFooter {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1;
+  margin-top: 3rem;
+  margin-bottom: -3rem;
+  user-select: none;
+  pointer-events: none;
+}
