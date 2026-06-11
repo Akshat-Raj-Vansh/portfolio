@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaLinkedin as Linkedin, FaGithub as Github, FaEnvelope as Mail, FaPhone as Phone, FaMapMarkerAlt as MapPin } from 'react-icons/fa';
+import { SiKaggle as Kaggle } from 'react-icons/si';
 import styles from './Contact.module.css';
 
 const Contact = () => {
@@ -48,6 +49,18 @@ const Contact = () => {
           transition={{ delay: 0.2 }}
         >
           <Mail /> Email
+        </motion.a>
+        <motion.a 
+          href="https://www.kaggle.com/akshatrajvansh" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className={styles.contactLink}
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+        >
+          <Kaggle /> Kaggle
         </motion.a>
       </div>
 

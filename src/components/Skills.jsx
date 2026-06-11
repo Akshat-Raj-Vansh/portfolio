@@ -4,10 +4,10 @@ import styles from './Skills.module.css';
 const skills = [
   "Python", "SQL", "PySpark", "Databricks",
   "Machine Learning", "Predictive Analytics", "Statistical Modeling", "Regression",
-  "Scikit-Learn", "XGBoost", "Gradient Boosting", "LightGBM", "Feature Engineering",
+  "Scikit-Learn", "XGBoost", "Gradient Boosting", "LightGBM", "Feature Engineering", "SHAP",
   "Generative AI", "Retrieval Augmented Generation", "LangChain", "FAISS / ChromaDB", "LLMs",
-  "LSTM", "Deep Learning", "Artificial Neural Networks", "Natural Language Processing", "NLP",
-  "MLflow", "Ci/Cd", "Customer Segmentation", "KPI Analysis", "Data Visualization", "Data Pipelines"
+  "LSTM", "Deep Learning", "Pytorch", "Artificial Neural Networks", "Natural Language Processing", "NLP",
+  "MLflow", "Ci/Cd", "Customer Segmentation", "KPI Analysis", "Data Visualization", "Seaborn", "Matplotlib", "Data Pipelines"
 ];
 
 const Skills = () => {
