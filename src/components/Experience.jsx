@@ -3,33 +3,33 @@ import styles from './Experience.module.css';
 
 const experiences = [
   {
-    role: "Senior Associate / Data Scientist",
+    role: "Data Scientist",
     company: "Axtria",
-    duration: "MAY 2024 - Present",
+    duration: "Jul 2024 - Present",
     details: [
-      "Engineered a predictive modeling framework using XGBoost and Regression to perform propensity modeling for HIV brand switching.",
-      "Orchestrated CI/CD pipelines to deploy classification and regression models to production, utilizing A/B testing and Causal Inference.",
-      "Synthesized heterogeneous datasets leveraging SHAP to optimize targeting strategies, increasing brand reach by 20%.",
-      "Architected a PoC AI Agent leveraging RAG, Knowledge Graphs, and FastAPI, reducing manual info retrieval time by 60%."
+      "Architected and maintained a production-grade predictive alerting system for ~9K HCPs across 10 alert models, combining XGBoost and LightGBM classifiers/regressors to forecast patient drug-switching behavior within a 90-day horizon; achieved 85%+ AUC through iterative model optimization and feature engineering across multi-source datasets (IQVIA LAAD, Claims, SDOH, Dimensions, Fact, Source of Business tables)",
+      "Developed two net-new predictive models from scratch via extensive EDA, expanding HCP targeting reach by ~20% by capturing previously unaddressed market segments",
+      "Engineered suppression logic using historical alert data and rep feedback signals to redistribute message IDs, eliminating repetitive alert fatigue with less than 5% impact on total predictive message volume",
+      "Conducted Key Driver Analysis using SHAP values to surface clinically interpretable feature importance insights for client stakeholders, translating model outputs into actionable business decisions",
+      "Managed end-to-end ML experiment lifecycle using MLflow — tracking parameters, metrics, and artifacts across iterative training cycles — supporting CI/CD-aligned model versioning, reproducibility, and streamlined deployment",
+      "Designed and deployed an Evaluation & QC pipeline with integrated data drift monitoring, proactively triggering retraining pipelines on feature distribution shifts and logging model performance month-over-month — reducing per-cycle manual effort by ~2 hours and improving operational efficiency by 5–10%"
     ]
   },
   {
-    role: "Associate / Data Analyst",
+    role: "Data Analyst",
     company: "Axtria",
-    duration: "JUL 2023 - APR 2024",
+    duration: "Jul 2023 - Jun 2024",
     details: [
-      "Developed a high-concurrency validation tool using Streamlit and multithreaded Python scripts to parallelize KPI extraction.",
-      "Designed scalable ETL workflows in Python and SQL, modernizing legacy manual processes into robust zero-error scripts.",
-      "Mentored and upskilled junior team members, accelerating onboarding and best practices adoption."
+      "Engineered an end-to-end Incentive Compensation (IC) and Sales Crediting pipeline in Python, fully automating a complex multi-step manual process — eliminating a ~20% manual error rate and saving 10+ hours/week in processing time",
+      "Guided and mentored two new hires to ensure smooth onboarding in the team"
     ]
   },
   {
-    role: "Intern / Data Analyst Trainee",
+    role: "Analyst Intern",
     company: "Axtria",
-    duration: "JAN 2023 - JUN 2023",
+    duration: "Jan 2023 - Jun 2023",
     details: [
-      "Acquired deep pharmaceutical domain expertise by translating business requirements into rigorous analytical frameworks.",
-      "Streamlined comprehensive data preprocessing pipelines incorporating automated data cleaning and validations."
+      "Developed and maintained data validation and preprocessing pipelines across sales performance and target-setting datasets, ensuring data quality standards for downstream analytical workflows"
     ]
   }
 ];

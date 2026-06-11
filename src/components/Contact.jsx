@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaLinkedin as Linkedin, FaGithub as Github, FaEnvelope as Mail } from 'react-icons/fa';
+import { FaLinkedin as Linkedin, FaGithub as Github, FaEnvelope as Mail, FaPhone as Phone, FaMapMarkerAlt as MapPin } from 'react-icons/fa';
 import styles from './Contact.module.css';
 
 const Contact = () => {
@@ -52,11 +52,26 @@ const Contact = () => {
       </div>
 
       <motion.div 
-        className={styles.signatureFooter}
+        className={styles.infoDetails}
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.3 }}
+      >
+        <span className={styles.infoItem}>
+          <MapPin style={{ color: 'var(--accent-primary)' }} /> Noida, India
+        </span>
+        <span className={styles.infoItem}>
+          <Phone style={{ color: 'var(--accent-primary)' }} /> +91-7355026029
+        </span>
+      </motion.div>
+
+      <motion.div 
+        className={styles.signatureFooter}
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.4 }}
       >
         arv
       </motion.div>

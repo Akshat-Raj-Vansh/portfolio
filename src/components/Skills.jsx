@@ -2,11 +2,12 @@ import { motion } from 'framer-motion';
 import styles from './Skills.module.css';
 
 const skills = [
-  "Python", "SQL", "PySpark", "AWS", "Databricks",
-  "Scikit-learn", "XGBoost", "LightGBM", "Feature Engineering", "Statistical Modeling",
-  "LLMs / GenAI", "RAG", "LangChain", "FAISS / ChromaDB", "Transformers",
-  "MLflow", "CI/CD / Docker", "Data Pipelines", "Model Deployment", "Streamlit",
-  "Forecasting", "A/B Testing", "Causal Inference", "Data Visualization", "NLP"
+  "Python", "SQL", "PySpark", "Databricks",
+  "Machine Learning", "Predictive Analytics", "Statistical Modeling", "Regression",
+  "Scikit-Learn", "XGBoost", "Gradient Boosting", "LightGBM", "Feature Engineering",
+  "Generative AI", "Retrieval Augmented Generation", "LangChain", "FAISS / ChromaDB", "LLMs",
+  "LSTM", "Deep Learning", "Artificial Neural Networks", "Natural Language Processing", "NLP",
+  "MLflow", "Ci/Cd", "Customer Segmentation", "KPI Analysis", "Data Visualization", "Data Pipelines"
 ];
 
 const Skills = () => {

@@ -22,7 +22,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             <p className={styles.description}>
-              Data Scientist with a passion for <span className={styles.highlightText}>extracting insights</span> from complex structured and unstructured data. Proficient in forecasting, commercial modeling, and building robust <span className={styles.highlightText}>Machine Learning & GenAI (RAG)</span> solutions that drive strategic decision-making.
+              Data Scientist with 3+ years of experience building and shipping production ML systems — from <span className={styles.highlightText}>gradient boosting models</span> and <span className={styles.highlightText}>RAG pipelines</span> to automated monitoring and retraining infrastructure.
             </p>
           </motion.div>
 
@@ -45,7 +45,7 @@ const About = () => {
             transition={{ delay: 0.2 }}
           >
             <p className={styles.description}>
-              Specializing in translating complex business requirements into high-fidelity <span className={styles.highlightText}>predictive models</span> and deploying them using modern <span className={styles.highlightText}>Data Pipelines</span> and CI/CD best practices.
+              Experienced in end-to-end <span className={styles.highlightText}>ML lifecycle management</span> (MLflow, CI/CD, Databricks), feature engineering across complex multi-source datasets, and translating model outputs into <span className={styles.highlightText}>measurable business impact</span>.
             </p>
           </motion.div>
 

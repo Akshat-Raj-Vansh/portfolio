@@ -5,32 +5,25 @@ import styles from './Projects.module.css';
 
 const projects = [
   {
-    title: "Scalable Hybrid Recommendation Engine",
+    title: "LLM-Powered Personal Finance Tracker",
     type: "Project",
-    description: "Engineered a hybrid recommendation microservice (Content-Based + Collaborative Filtering) processing 100k+ ratings with sub-100ms inference latency. Containerized the application using Docker and exposed predictions via a FastAPI endpoint to simulate real-world production integration.",
+    description: "Developed an end-to-end RAG pipeline using LangChain and FAISS to ingest and semantically search over personal finance documents. Enabled natural language querying over transaction history with Ollama Cloud APIs, reducing manual lookup time significantly.",
     link: "#",
-    techStack: ["Python", "FastAPI", "Docker", "Machine Learning", "Pandas"]
+    techStack: ["LangChain", "FAISS", "RAG", "Ollama Cloud APIs", "Python", "Vector Search"]
   },
   {
     title: "Realtime Atrial Fibrillation Detection System for IoMT Using Hybrid ML Classification",
     type: "Research Publication",
-    description: "Published in IEEE Xplore (NOV 2023). Developed a high-accuracy, realtime machine learning classification system tailored for Internet of Medical Things (IoMT) deployments.",
+    description: "Published in IEEE Xplore (Nov 2023). Developed a high-accuracy, realtime machine learning classification system tailored for Internet of Medical Things (IoMT) deployments.",
     link: "https://ieeexplore.ieee.org/",
-    techStack: ["Scikit-Learn", "IoT", "Data Classification", "Python"]
+    techStack: ["Scikit-Learn", "IoT", "Data Classification", "Python", "Hybrid ML", "IoMT"]
   },
   {
-    title: "Enterprise RAG Agent for Document QA",
-    type: "Project",
-    description: "Architected a custom autonomous AI assistant using LangChain and ChromaDB to synthesize complex unstructured enterprise documents. Achieved higher retrieval relevance using advanced semantic search, significantly cutting down manual research time.",
-    link: "#",
-    techStack: ["LangChain", "ChromaDB", "LLMs", "Vector Search"]
-  },
-  {
-    title: "Customer Churn Predictive Pipeline",
-    type: "Project",
-    description: "Built an end-to-end Machine Learning pipeline utilizing LightGBM to predict early customer churn. Integrated automated feature engineering and deployed model endpoints that triggered preemptive retention alerts for account managers.",
-    link: "#",
-    techStack: ["LightGBM", "Data Engineering", "CI/CD", "Predictive Modeling"]
+    title: "An ECG Heartbeat Classification Strategy using Deep Learning for Automated Cardiocare Application",
+    type: "Research Publication",
+    description: "Published in IEEE Xplore (Nov 2021). Designed a deep learning classification strategy for automated electrocardiogram (ECG) heartbeat classification to support advanced cardiocare applications.",
+    link: "https://ieeexplore.ieee.org/",
+    techStack: ["Deep Learning", "ECG", "Neural Networks", "TensorFlow", "Python"]
   }
 ];
 
